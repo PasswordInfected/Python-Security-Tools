@@ -1,8 +1,13 @@
-# Cracks Microsoft Office password protected files utilizing John-The-Ripper brute forcing
-# Compatabile with Python 2.7
-# AV may detect file as malware
-
-
+-------------------------------------------------------------------------------------------------------------
+-                                                                                                           -
+-                                                                                                           -
+-            # October 14, 2018                                                                             -
+-            # This script is for computer forensic use only                                                -
+-            # Cracks Microsoft Office password protected files utilizing John-The-Ripper brute forcing     -
+-            # Compatabile with Python 2.7                                                                  -
+-            # AV may detect file as malware                                                                -
+-                                                                                                           -
+-------------------------------------------------------------------------------------------------------------
 import string, StringIO, struct, array, os.path, sys
 
 #[PL] Define explicitly the public API to avoid private objects in pydoc:
